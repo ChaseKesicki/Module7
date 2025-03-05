@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase's Vegan Burgers</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-bg {background-color: darkgreen;}
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/burger-header.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        html {
+            scroll-padding-top: 70px;
+        }
+        .anchor-spacer {
+            display: block;
+            height: 70px;
+            margin-top: -70px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif;">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg" style="background-color: crimson;">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: white; font-weight: bold;">Chase's Vegan Burgers</a>
+        </div>
+    </nav>
+
+    <!-- Header/Hero Section -->
+    <header class="hero-bg container-fluid py-5" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/your-header-image.jpg'); background-size: cover; background-position: center;">
+        <div class="container text-center text-white">
+            <h1 class="display-4">Chase's Vegan Burgers</h1>
+            <p class="lead">All the mmmmm without the moooo</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Add your sections here -->
+        <span id="menu" class="anchor-spacer"></span>
+        <section class="row mb-5">
+            <div class="col-md-8"> <!-- row and col styles from bootstrap-->
+                <h2 class="text-brand border-bottom border-brand pb-2 mb-4">Our Burgers</h2> <!-- h1 - h6 are varying levels of headings-->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="card border-brand h-100">
+                            <img src="images/burger-1.webp" class="card-img-top" alt="Vegan Cheeseburger">
+                            <div class="card-body">
+                                <h5 class="card-title">Classic Cheeseburger</h5>
+                                <p class="card-text">Impossible burger with house made vegan cheese</p>
+                                <p class="card-text fw-bold">$12.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="card border-brand h-100">
+                            <img src="images/burger-2.jpeg" class="card-img-top" alt="Mushroom Swiss Burger">
+                            <div class="card-body">
+                                <h5 class="card-title">Mushroom & Swiss/h5>
+                                <p class="card-text">Classic Mushroom & Swiss burger with house made aoli</p>
+                                <p class="card-text fw-bold">$14.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span id="contact" class="anchor-spacer"></span> <!-- Anchor spacer that I defined in the style element-->
+            <div class="col-md-4">
+                <div class="card bg-light-orange border-brand">
+                    <div class="card-body"> <!-- Card with the hours, location and phone number-->
+                        <h3 class="card-title text-brand">Hours</h3>
+                        <p class="mb-2">Monday - Thursday: 11:00 AM - 10:00 PM</p>
+                        <p class="mb-2">Friday - Saturday: 11:00 AM - 11:00 PM</p>
+                        <p>Sunday: 12:00 PM - 9:00 PM</p>
+                        <h3 class="card-title text-brand mt-4">Contact Us</h3>
+                        <p class="mb-2">Phone: (612) 434-0123</p>
+                        <p>Address: 2525 Broadway ST NE<br>Minneapolis, MN 55413</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center" style="background-color: #f8f9fa;">
+        <div class="container">
+            <p class="mb-0">© 2025 Chase's Vegan Burgers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
